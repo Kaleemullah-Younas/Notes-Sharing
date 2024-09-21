@@ -14,7 +14,7 @@ For Contributions, please refer to [Contributors](contributors.md) guide. After 
 
 1. Fork this repository, and clone it locally using:
 ```bash
-git clone <repo_url>
+git clone https://github.com/GDSC-UMT/production-ready
 ```
 2. Go to that specific folder you want to contribute to like, if you want to add a free book, go to **free_books folder**.
 3. After adding relevant content, create a PR 
