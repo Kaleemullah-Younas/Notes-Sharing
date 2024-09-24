@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "🎉 Woohoo! 🎉\n\nYou've just opened your first issue, and we’re doing a little happy dance over here! 💃🕺 Welcome to the wonderful world of open-source! 🚀\n\nWe're super excited that you're here and can’t wait to collaborate with you. Feel free to grab a cup of coffee ☕ (or tea, we don’t judge 🍵) while we take a look. In the meantime, don’t forget that you’re now officially part of this awesome project. 🎊\n\nWe’re all about having fun while building cool stuff, so don’t be shy to ask questions, share ideas, or drop some emojis! 🧑‍💻🤖✨\n\nThanks for making our code a little more awesome! 🙌"
+        pr-message: "🛠️ STOP EVERYTHING! WE HAVE SOMEONE'S FIRST PULL REQUEST INCOMING! 🛠️\n\n🎺 Cue epic fanfare 🎺 A legendary coder has stepped forth, wielding code like a lightsaber in a galaxy far, far away! 🌌⚔️\n\nYou’ve opened your first PR and unlocked the Ultimate Badge of Awesomeness! 🏅 Now, before we break out the virtual high-fives and victory gifs:\n\nDid you follow the mysterious Contributing Scrolls? 🧙‍♀️ They hold the secrets to PR perfection! Consult them [here]('contributors.md').\n\nStuck in the code labyrinth? 🧵 Fear not, brave coder! We’re just a shout away to untangle the trickiest of puzzles. 🧩\n\nWe’re beyond excited to have you here—it’s like finding a rare Pokémon! 🐉 Thanks for being a total legend and making this project epic. Can’t wait to hit that merge button and make some coding magic happen! ✨🎩🐇"
