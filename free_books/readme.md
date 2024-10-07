@@ -3,6 +3,7 @@ Available Categories for Free Books include but, not limited to only these:
 
 1. Technology
 2. Business
+3. Genius
 
 ## Available Books
 
@@ -30,3 +31,8 @@ Available Categories for Free Books include but, not limited to only these:
 
 ### Business
 1. The Almanack of Naval Ravikant (By Eric Jorgenson)
+
+
+### Genius
+
+1. The creating brain-The neuroscience of genius (By Nancy C. Andreasen)

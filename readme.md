@@ -26,5 +26,5 @@ As we approve your PR, it'll be merged. We'll try to add relevant comments if it
 ### Additional Support
 For any queries or additional support, please reach out to us via LinkedIn:
 
-1. [Geeky Hassan](https://www.linkedin.com/in/geeky-hassan/)
-2. [Athar Naveed](https://github.com/Athar-Naveed)
+1. [Noor Ul Hassan](https://www.linkedin.com/in/geeky-hassan/)
+2. [Athar Naveed](https://www.linkedin.com/in/athar-naveed-477775224/)
